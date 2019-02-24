@@ -52,3 +52,17 @@ func GetIngredients(search string, languageId int) ([]*LanguageToIngredient, err
 
 	return languageIngredients, err
 }
+
+func GetAllIngredients(languageId int) ([]*LanguageToIngredient, error) {
+
+	db := GetDB()
+	languageIngredients := make([]*LanguageToIngredient, 0)
+
+	err := db.Joins("JOIN ingredients ON language_to_ingredient.id_language = ingredients.id AND language_to_ingredient.id_language = ?", languageId).Find(&languageIngredients).Error
+
+	if err != nil {
+		return nil, err
+	}
+
+	return languageIngredients, err
+}

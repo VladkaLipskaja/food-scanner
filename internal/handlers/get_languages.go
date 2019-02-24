@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"net/http"
-	"scanner/internal/models"
-	u "scanner/internal/utils"
+	"scanner/food-scanner/internal/models"
+	u "scanner/food-scanner/internal/utils"
 )
 
 func GetLanguages(w http.ResponseWriter, r *http.Request) {

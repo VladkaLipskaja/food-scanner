@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	"scanner/internal/conf"
+	"scanner/food-scanner/internal/conf"
 
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"

@@ -3,7 +3,7 @@ package router
 import (
 	"fmt"
 	"net/http"
-	"scanner/internal/handlers"
+	"scanner/food-scanner/internal/handlers"
 
 	"github.com/gorilla/mux"
 )
@@ -13,6 +13,7 @@ func NewRouter() {
 	router := mux.NewRouter()
 
 	router.HandleFunc("/ingredient/language/{languageID}/search/{search}", handlers.GetIngredients).Methods("GET")
+	router.HandleFunc("/ingredient/language/{languageID}", handlers.GetAllIngredients).Methods("GET")
 	router.HandleFunc("/ingredient/{barcode}", handlers.GetIngredientsByBarcode).Methods("GET")
 	router.HandleFunc("/language", handlers.GetLanguages).Methods("GET")
 

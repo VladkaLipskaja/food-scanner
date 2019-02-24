@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"scanner/internal/models"
-	"scanner/internal/router"
+	"scanner/food-scanner/internal/models"
+	"scanner/food-scanner/internal/router"
 )
 
 /*Execute for */
