@@ -1,0 +1,6 @@
+framework module Pods_int20h {
+  umbrella header "Pods-int20h-umbrella.h"
+
+  export *
+  module * { export * }
+}

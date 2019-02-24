@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118D5CF361AEFA969722FD0B1119373C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6FA882B0BF8C99BB7088DDF42921E /* Extensions.swift */; };
+		32BDB98D69BFFE8E8FE5D140D6424FF3 /* Magnetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6531AD56389ADD66A8F04F69C3C5F8E /* Magnetic-dummy.m */; };
+		3649322F23712512C631F260DC742C2B /* Magnetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A83D95731ECCAE1BA67B7FE26F6E29 /* Magnetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7B80B64F5859C93F1835EE141AA8CB /* Pods-int20h-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58742137F1C01DAFF8B345D8D429EC17 /* Pods-int20h-dummy.m */; };
+		5A18C403136236854498F1FC241099F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7CCACBBBAA40049F3E53C7EDD5F38FDC /* SKMultilineLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB8DF9A9C2560C28991F82A3DDE2D0 /* SKMultilineLabelNode.swift */; };
+		9E0FAF617D1F3C58A454FB61BE631563 /* Pods-int20h-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B68823083C03C69662F85281E27564 /* Pods-int20h-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F1173CA43805A19C1A2D542E9B9267 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCACA17CE4C4A9989CDCBFAE8FC0843 /* Node.swift */; };
+		C61FCEBF6A2C5CE4F7C10F143C35663C /* Magnetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E736FF83F2A86D76CC80B3A76B264 /* Magnetic.swift */; };
+		E6A013E51257FC0D00E255ACAB437077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FE2F52A5FDB8F537F2B25E53908E44FC /* MagneticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BE2D31A97061B97580573223E1B08 /* MagneticView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103AD50F1A38518DC52DD7E748CAF4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8A7F41D4ED199B243996AB117F6F2C;
+			remoteInfo = Magnetic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A83D95731ECCAE1BA67B7FE26F6E29 /* Magnetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-umbrella.h"; sourceTree = "<group>"; };
+		3E4E139D1D15D5F9C7A6D0E79B230C0B /* Pods_int20h.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_int20h.framework; path = "Pods-int20h.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD2F69FCB1F806AB6FB80902A805A0B /* Magnetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-prefix.pch"; sourceTree = "<group>"; };
+		58742137F1C01DAFF8B345D8D429EC17 /* Pods-int20h-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-int20h-dummy.m"; sourceTree = "<group>"; };
+		73B68823083C03C69662F85281E27564 /* Pods-int20h-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-int20h-umbrella.h"; sourceTree = "<group>"; };
+		81138E5F1A5F7B29EBA7D0F3060ECA79 /* Pods-int20h-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-int20h-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B2BE2D31A97061B97580573223E1B08 /* MagneticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagneticView.swift; path = Sources/MagneticView.swift; sourceTree = "<group>"; };
+		8EBB8DF9A9C2560C28991F82A3DDE2D0 /* SKMultilineLabelNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMultilineLabelNode.swift; path = Sources/SKMultilineLabelNode.swift; sourceTree = "<group>"; };
+		90FDD14124C85D697E98C8DA4CDC0243 /* Magnetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Magnetic.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE938DB05BF0E24F58B6AF7D2F585AF /* Magnetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Magnetic.xcconfig; sourceTree = "<group>"; };
+		B0B4827F69702BB27704D349325F5E83 /* Pods-int20h-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-int20h-frameworks.sh"; sourceTree = "<group>"; };
+		B421AFBFF9D58776402ABA0E6F08D597 /* Pods-int20h.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-int20h.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF7A367B4328829BCD6190F0D85B7D56 /* Pods-int20h.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-int20h.modulemap"; sourceTree = "<group>"; };
+		D20E99E86DEC31CB2CF4A2842B7A68E6 /* Magnetic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Magnetic-Info.plist"; sourceTree = "<group>"; };
+		D66354F04E7764A7BB66DB202C79B5B0 /* Pods-int20h-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-int20h-Info.plist"; sourceTree = "<group>"; };
+		DC9AB3D22CFEA23C2651CC3A867FD235 /* Pods-int20h-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-int20h-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFA6FA882B0BF8C99BB7088DDF42921E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		E6531AD56389ADD66A8F04F69C3C5F8E /* Magnetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Magnetic-dummy.m"; sourceTree = "<group>"; };
+		F1B885FCAC1D1DC4641BA1FA5E4E9492 /* Pods-int20h.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-int20h.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCACA17CE4C4A9989CDCBFAE8FC0843 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		FD7E736FF83F2A86D76CC80B3A76B264 /* Magnetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Magnetic.swift; path = Sources/Magnetic.swift; sourceTree = "<group>"; };
+		FDD21C33685CAF8D9C5E922D80FA99DC /* Magnetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Magnetic.framework; path = Magnetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A2159C713A489017A449B0AD957F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A18C403136236854498F1FC241099F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6502389B783D535FC41B3867F5A17C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A013E51257FC0D00E255ACAB437077 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A482049D5CA4D6998943FC7647654E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD21C33685CAF8D9C5E922D80FA99DC /* Magnetic.framework */,
+				3E4E139D1D15D5F9C7A6D0E79B230C0B /* Pods_int20h.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7606866495B6A94C851C3B50C363196E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7922FAFACFE071EA58012E4F7110153 /* Pods-int20h */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84FFAC21B67FF92A791A049BA92E8BD2 /* Magnetic */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6FA882B0BF8C99BB7088DDF42921E /* Extensions.swift */,
+				FD7E736FF83F2A86D76CC80B3A76B264 /* Magnetic.swift */,
+				8B2BE2D31A97061B97580573223E1B08 /* MagneticView.swift */,
+				FBCACA17CE4C4A9989CDCBFAE8FC0843 /* Node.swift */,
+				8EBB8DF9A9C2560C28991F82A3DDE2D0 /* SKMultilineLabelNode.swift */,
+				99D3D0E3AB2F48DA86C2B2CF79F29555 /* Support Files */,
+			);
+			name = Magnetic;
+			path = Magnetic;
+			sourceTree = "<group>";
+		};
+		99D3D0E3AB2F48DA86C2B2CF79F29555 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90FDD14124C85D697E98C8DA4CDC0243 /* Magnetic.modulemap */,
+				ACE938DB05BF0E24F58B6AF7D2F585AF /* Magnetic.xcconfig */,
+				E6531AD56389ADD66A8F04F69C3C5F8E /* Magnetic-dummy.m */,
+				D20E99E86DEC31CB2CF4A2842B7A68E6 /* Magnetic-Info.plist */,
+				4DD2F69FCB1F806AB6FB80902A805A0B /* Magnetic-prefix.pch */,
+				34A83D95731ECCAE1BA67B7FE26F6E29 /* Magnetic-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Magnetic";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7922FAFACFE071EA58012E4F7110153 /* Pods-int20h */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A367B4328829BCD6190F0D85B7D56 /* Pods-int20h.modulemap */,
+				81138E5F1A5F7B29EBA7D0F3060ECA79 /* Pods-int20h-acknowledgements.markdown */,
+				DC9AB3D22CFEA23C2651CC3A867FD235 /* Pods-int20h-acknowledgements.plist */,
+				58742137F1C01DAFF8B345D8D429EC17 /* Pods-int20h-dummy.m */,
+				B0B4827F69702BB27704D349325F5E83 /* Pods-int20h-frameworks.sh */,
+				D66354F04E7764A7BB66DB202C79B5B0 /* Pods-int20h-Info.plist */,
+				73B68823083C03C69662F85281E27564 /* Pods-int20h-umbrella.h */,
+				F1B885FCAC1D1DC4641BA1FA5E4E9492 /* Pods-int20h.debug.xcconfig */,
+				B421AFBFF9D58776402ABA0E6F08D597 /* Pods-int20h.release.xcconfig */,
+			);
+			name = "Pods-int20h";
+			path = "Target Support Files/Pods-int20h";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EED9011DB3527941F0EEC4979D4DF54A /* Pods */,
+				0A482049D5CA4D6998943FC7647654E1 /* Products */,
+				7606866495B6A94C851C3B50C363196E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED9011DB3527941F0EEC4979D4DF54A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84FFAC21B67FF92A791A049BA92E8BD2 /* Magnetic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49344FEDDAF410D7BD5421E38896302E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3649322F23712512C631F260DC742C2B /* Magnetic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC4B5C6F89BB66FA7427B18B13A6E78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0FAF617D1F3C58A454FB61BE631563 /* Pods-int20h-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F8A7F41D4ED199B243996AB117F6F2C /* Magnetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123194649A43C6CAD72FD7BFCEF47199 /* Build configuration list for PBXNativeTarget "Magnetic" */;
+			buildPhases = (
+				49344FEDDAF410D7BD5421E38896302E /* Headers */,
+				C6FF3FEBC75A1BD267A462D4F00C4885 /* Sources */,
+				32A2159C713A489017A449B0AD957F14 /* Frameworks */,
+				1F98260F5DD34A2C67A5F2C87B3C767D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnetic;
+			productName = Magnetic;
+			productReference = FDD21C33685CAF8D9C5E922D80FA99DC /* Magnetic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75BA61F4F49D9B5E91F0F94B07E330CB /* Pods-int20h */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEF48955890CC2060B0D847CE73A46E /* Build configuration list for PBXNativeTarget "Pods-int20h" */;
+			buildPhases = (
+				6DC4B5C6F89BB66FA7427B18B13A6E78 /* Headers */,
+				8C08CFA1DFD40A76028F4F5507A4C193 /* Sources */,
+				E6502389B783D535FC41B3867F5A17C1 /* Frameworks */,
+				02FD9C7BA80F7FBEE7661D00B4914CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD9EE4A9646E62C42DDF0A7E592E270 /* PBXTargetDependency */,
+			);
+			name = "Pods-int20h";
+			productName = "Pods-int20h";
+			productReference = 3E4E139D1D15D5F9C7A6D0E79B230C0B /* Pods_int20h.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0A482049D5CA4D6998943FC7647654E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8A7F41D4ED199B243996AB117F6F2C /* Magnetic */,
+				75BA61F4F49D9B5E91F0F94B07E330CB /* Pods-int20h */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FD9C7BA80F7FBEE7661D00B4914CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F98260F5DD34A2C67A5F2C87B3C767D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C08CFA1DFD40A76028F4F5507A4C193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7B80B64F5859C93F1835EE141AA8CB /* Pods-int20h-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FF3FEBC75A1BD267A462D4F00C4885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118D5CF361AEFA969722FD0B1119373C /* Extensions.swift in Sources */,
+				32BDB98D69BFFE8E8FE5D140D6424FF3 /* Magnetic-dummy.m in Sources */,
+				C61FCEBF6A2C5CE4F7C10F143C35663C /* Magnetic.swift in Sources */,
+				FE2F52A5FDB8F537F2B25E53908E44FC /* MagneticView.swift in Sources */,
+				B1F1173CA43805A19C1A2D542E9B9267 /* Node.swift in Sources */,
+				7CCACBBBAA40049F3E53C7EDD5F38FDC /* SKMultilineLabelNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD9EE4A9646E62C42DDF0A7E592E270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnetic;
+			target = 4F8A7F41D4ED199B243996AB117F6F2C /* Magnetic */;
+			targetProxy = 103AD50F1A38518DC52DD7E748CAF4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49A288E8E139327D9901194D957E33FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B885FCAC1D1DC4641BA1FA5E4E9492 /* Pods-int20h.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-int20h/Pods-int20h-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-int20h/Pods-int20h.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5B9E7172D2D2373C336CE9441D1EF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B421AFBFF9D58776402ABA0E6F08D597 /* Pods-int20h.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-int20h/Pods-int20h-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-int20h/Pods-int20h.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDCF07046CFFD27676F740CAE34213E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE938DB05BF0E24F58B6AF7D2F585AF /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Magnetic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				PRODUCT_MODULE_NAME = Magnetic;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7F946EB4705EBABB308985F8ACA5462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE938DB05BF0E24F58B6AF7D2F585AF /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Magnetic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				PRODUCT_MODULE_NAME = Magnetic;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123194649A43C6CAD72FD7BFCEF47199 /* Build configuration list for PBXNativeTarget "Magnetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCF07046CFFD27676F740CAE34213E6 /* Debug */,
+				C7F946EB4705EBABB308985F8ACA5462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEF48955890CC2060B0D847CE73A46E /* Build configuration list for PBXNativeTarget "Pods-int20h" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A288E8E139327D9901194D957E33FD /* Debug */,
+				B5B9E7172D2D2373C336CE9441D1EF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
