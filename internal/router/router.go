@@ -14,6 +14,7 @@ func NewRouter() {
 
 	router.HandleFunc("/ingredient/language/{languageID}/search/{search}", handlers.GetIngredients).Methods("GET")
 	router.HandleFunc("/ingredient/{barcode}", handlers.GetIngredientsByBarcode).Methods("GET")
+	router.HandleFunc("/ingredient", handlers.GetTopIngredients).Methods("GET")
 	router.HandleFunc("/language", handlers.GetLanguages).Methods("GET")
 
 	fmt.Println("router")
