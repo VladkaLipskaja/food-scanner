@@ -28,13 +28,27 @@ func GetIngredientsByBarcode(barcode string) ([]*Ingredient, error) {
 	return ingredients, err
 }
 
-func GetIngredients(search string, languageId int) ([]*Ingredient, error) {
+func GetIngredients(search string, languageId int) ([]*LanguageToIngredient, error) {
 
 	ingredients := make([]*Ingredient, 0)
-	err := GetDB().Joins("JOIN language_to_ingredient ON language_to_ingredient.id_language = ingredients.id AND language_to_ingredient.id_language = ?", languageId).Find(&ingredients).Error
+	db := GetDB()
+	err := db.Joins("JOIN language_to_ingredient ON language_to_ingredient.id_language = ingredients.id AND language_to_ingredient.id_language = ?", languageId).Find(&ingredients).Error
+
 	if err != nil {
 		return nil, err
 	}
 
-	return ingredients, err
+	for _, ingredient := range ingredients {
+		ingredient.Counter = ingredient.Counter + 1
+		db.Save(&ingredient)
+	}
+
+	languageIngredients := make([]*LanguageToIngredient, 0)
+	err = db.Joins("JOIN ingredients ON language_to_ingredient.id_language = ingredients.id AND language_to_ingredient.id_language = ?", languageId).Find(&languageIngredients).Error
+
+	if err != nil {
+		return nil, err
+	}
+
+	return languageIngredients, err
 }
